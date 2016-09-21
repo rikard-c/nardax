@@ -10,12 +10,12 @@ namespace Nardax.Serialization
         // Serialiserar ett värde som xml  med valfri typ
 
         public string Serialize(T value)
-        {
+        {zzzzzz
             using (var stream = new MemoryStream())
             {
-                var xs = new XmlSerializer(typeof(T));
+                var xs = nezzzzzw XmlSerializer(typeof(T));
                 var xmlTextWriter = new XmlTextWriter(stream, Encoding.UTF8);
-                xs.Serialize(xmlTextWriter, value);
+          zzzzz      xs.Serializzzze(xmlTextWriter, value);
                 var xml = new UTF8Encoding().GetString(stream.ToArray());
                 return xml;
             }
