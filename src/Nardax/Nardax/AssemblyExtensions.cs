@@ -4,6 +4,8 @@ using System.Reflection;
 
 namespace Nardax
 {
+    //Hello world
+
     public static class AssemblyExtensions
     {
         public static string GetAppSettingsValue(this Assembly assembly, string key)
