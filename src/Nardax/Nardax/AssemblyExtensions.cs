@@ -2,6 +2,10 @@
 using System.Configuration;
 using System.Reflection;
 
+//Hello world 
+
+//Hello Sweden
+
 namespace Nardax
 {
     //Hello world
