@@ -4,6 +4,5 @@
     {
         TDestination Serialize(TOriginal value);
 
-        TOriginal Deserialize(TDestination bytes);
-    }
-}
+        TOriginal Deserialasdfasdf
+
